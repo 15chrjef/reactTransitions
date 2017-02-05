@@ -7,8 +7,8 @@ class App extends Component {
     return (
       <div>
         <div>Appear TodoList</div>
-        
-        <div>Regular TodoList</div>
+        <AppearTodoList/>
+        <div style={{marginTop: '100px'}}>Regular TodoList</div>
         <TodoList/>
       </div>
     );
